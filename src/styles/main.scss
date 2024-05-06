@@ -1,0 +1,33 @@
+@use 'basicos';
+@use 'entrega';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    margin: 15vh auto;
+    max-width: 1024px;
+    width: 100%;
+
+    .formulario {
+        margin: 0;
+        max-width: 90%;
+        width: 100%;
+
+        input {
+            margin-bottom: 10px;
+        }
+
+        #nome:focus {
+            outline: none;
+            /* Remove a borda de foco */
+        }
+
+
+
+    }
+}

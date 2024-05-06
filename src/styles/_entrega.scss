@@ -1,0 +1,25 @@
+.container {
+    .formulario {
+        text-align: center;
+        .dados__entrega {
+            
+            margin-top: 28px;
+            #cep {
+                margin-bottom: 0;
+            }
+            &__cep {
+                display: grid;
+                grid-template-columns: 20fr 1fr;
+                gap: 1%;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+
+            &__trajeto {
+                display: grid;
+                grid-template-columns: 16fr 4fr;
+            }
+        }
+
+    }
+}

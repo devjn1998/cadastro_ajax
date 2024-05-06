@@ -1,0 +1,22 @@
+.container {
+    
+
+    .formulario {
+        .dados__basicos {
+            padding-bottom: 28px;
+            border-bottom: 3px dotted rgba(43, 200, 228, 0.897);
+
+            &__nome {
+                display: grid;
+                grid-template-columns: 2fr 2fr;
+                gap: 1%;
+            }
+
+            &__senha {
+                display: grid;
+                grid-template-columns: 2fr 2fr;
+                gap: 1%;
+            }
+        }
+    }
+}
